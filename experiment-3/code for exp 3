@@ -1,0 +1,106 @@
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    float num1, num2;
+
+    printf("Enter two numbers: ");
+    scanf("%f %f", &num1, &num2);
+
+    printf("Addition: %.2f\n", num1 + num2);
+    printf("Subtraction: %.2f\n", num1 - num2);
+    printf("Multiplication: %.2f\n", num1 * num2);
+    printf("Division: %.2f\n", num1 / num2);
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    if (num % 2 == 0)
+        printf("%d is Even\n", num);
+    else
+        printf("%d is Odd\n", num);
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int year;
+
+    printf("Enter a year: ");
+    scanf("%d", &year);
+
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))
+        printf("%d is a Leap Year\n", year);
+  
+  #include <stdio.h>
+int main() {
+    char op;
+    float num1, num2;
+
+    printf("Enter an operator (+, -, *, /): ");
+    scanf(" %c", &op);
+
+    printf("Enter two numbers: ");
+    scanf("%f %f", &num1, &num2);
+
+    switch (op) {
+        case '+':
+            printf("Result: %.2f\n", num1 + num2);
+            break;
+        case '-':
+            printf("Result: %.2f\n", num1 - num2);
+            break;
+        case '*':
+            printf("Result: %.2f\n", num1 * num2);
+            break;
+        case '/':
+            if (num2 != 0)
+                printf("Result: %.2f\n", num1 / num2);
+            else
+                printf("Error: Division by zero!\n");
+            break;
+        default:
+            printf("Invalid operator!\n");
+    }
+
+    return 0;
+}
+
+#include <stdio.h>
+
+int main() {
+    int i;
+    for (i = 1; i <= 10; i++) {
+        printf("%d\n", i);
+    }
+    return 0;
+}
+
+
+#include <stdio.h>
+int main() {
+    int i = 1;
+    while (i <= 10) {
+        printf("%d\n", i);
+        i++;  // Increment the value of i
+    }
+    return 0;
+}
+
+
