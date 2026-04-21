@@ -1,0 +1,36 @@
+File & Directory Commands
+
+pwd – show current directory
+
+ls – list files
+
+ls -l – list files with details
+
+ls -a – show hidden files
+
+cd folder_name – change directory
+
+cd .. – go back one directory
+
+mkdir folder_name – create a directory
+
+rmdir folder_name – delete empty directory
+
+
+File Commands
+
+touch file.txt – create a file
+
+cat file.txt – display file content
+
+nano file.txt – edit file (easy editor)
+
+vi file.txt – edit file (advanced)
+
+cp file1 file2 – copy file
+
+mv file1 file2 – move/rename file
+
+rm file.txt – delete file
+
+rm -r folder_name – delete folder
